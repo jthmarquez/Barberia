@@ -1,12 +1,16 @@
-body{
-    background: rgb(255, 255, 255);
+.titulo-principal{
+    padding-left: 30px;
 }
 
 #banner{
  width:100%;
 }
+.principal{
+    background: rgb(198, 197, 197);
+    padding: 20px;
+}
 
-h1{
+.titulo-centralizado{
 text-align: center;
 }
 
@@ -15,11 +19,25 @@ p{
 }
 
 em strong{
-color: rgb(202, 229, 210);
+color: rgb(83, 40, 30);
 }
 #mision{
   font-size: 24px;
+  color: rgb(82, 35, 35);
+}
+.diferenciales{
+    background: rgb(149, 134, 134);
+    padding: 30px;
 }
 .items{
     font-style: italic;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagenDiferenciales{
+    width: 50%;
 }
