@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>contacto - Barberia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="../barberia/img-productos/logo.png"></h1>
+            <nav>
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html" >Contacto</a></li>
+                    </ul>
+               </nav>   
+            </div> 
+        </header> 
+
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido">
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="text" id="correoelectronico">
+
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje"></textarea>
+
+                <div>
+                    <p>Como le gustaria que lo contactemos?</p>
+
+                    <label for="radio-email">Email</label>
+                    <input type="radio" name="contacto" value="email" id="radio-email">
+                    
+                    <label for="radio-telefono">Telefono</label>
+                    <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+                    
+                    <label for="radio-whatsapp">Whatsapp</label>
+                    <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">
+                </div>
+
+                <label><input type="checkbox">Le gustaria recibir novedades de la Barberia Alura?</label>
+
+                <input type="submit" value="Enviar formulario">
+                
+            </form>
+          </main>
+        <footer>
+            <img src="../barberia/img-productos/logo-blanco.png">
+            <p class="Copyright">&copy Copyright Barberia Alura - 2023</p>
+        </footer>
+    </body>
+  </html>      

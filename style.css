@@ -1,43 +1,79 @@
-.titulo-principal{
-    padding-left: 30px;
+header{
+     background-color: #BBBBBB;
+     padding: 20px 0;
 }
 
-#banner{
- width:100%;
-}
-.principal{
-    background: rgb(198, 197, 197);
-    padding: 20px;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.titulo-centralizado{
-text-align: center;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-p{
-    text-align: center;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-em strong{
-color: rgb(83, 40, 30);
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
 }
-#mision{
-  font-size: 24px;
-  color: rgb(82, 35, 35);
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+} 
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
-.diferenciales{
-    background: rgb(149, 134, 134);
-    padding: 30px;
-}
-.items{
-    font-style: italic;
-}
-ul{
+
+.productos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
-.imagenDiferenciales{
-    width: 50%;
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(../barberia/img-productos/bg.jpg);
+    padding: 40px;
+}
+
+.Copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
 }
