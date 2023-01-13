@@ -28,7 +28,7 @@ nav a{
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -123,7 +123,7 @@ form label, form legend{
     color: white;
     background: orange;
     border: none;
-    border-radius: 05px;
+    border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
 }
